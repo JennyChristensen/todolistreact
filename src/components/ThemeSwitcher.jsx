@@ -8,9 +8,9 @@ export const ThemeSwitcher = () => {
   return (
     <div className="theme-switcher" onClick={toggleTheme}>
       {theme === "light" ? (
-        <img src="public/darkmode.png" alt="Sol" className="theme-icon" />
+        <img src="./darkmode.png" alt="Sol" className="theme-icon" />
       ) : (
-        <img src="public/lightmode.png" alt="Måne" className="theme-icon" />
+        <img src="./lightmode.png" alt="Måne" className="theme-icon" />
       )}
     </div>
   );
